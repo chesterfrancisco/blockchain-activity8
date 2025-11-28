@@ -1,5 +1,5 @@
 {
-	"id": "5be5d4d4a83ad5e289c98d6d70c5b958",
+	"id": "f6423bcbcbd7085db2b567bdd7d9bc1d",
 	"_format": "hh-sol-build-info-1",
 	"solcVersion": "0.8.30",
 	"solcLongVersion": "0.8.30+commit.73712a01",
@@ -7,7 +7,7 @@
 		"language": "Solidity",
 		"sources": {
 			"contracts/IStudentRegistry.sol": {
-				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.30;\r\n\r\ninterface IStudentRegistry {\r\n    function register(string memory _name, uint _age) external;\r\n    function getStudent(address _addr) external view returns (string memory, uint);\r\n    function isRegistered(address _addr) external view returns (bool);\r\n}"
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.30;\r\n\r\ninterface IStudentRegistry {\r\n    function register(string memory _name, uint _age) external;\r\n    function getStudent(address _addr) external view returns (string memory, uint);\r\n    function isRegistered(address _addr) external view returns (bool);\r\n}\r\n"
 			}
 		},
 		"settings": {
@@ -137,7 +137,7 @@
 							"register(string,uint256)": "ea87152b"
 						}
 					},
-					"metadata": "{\"compiler\":{\"version\":\"0.8.30+commit.73712a01\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_addr\",\"type\":\"address\"}],\"name\":\"getStudent\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_addr\",\"type\":\"address\"}],\"name\":\"isRegistered\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_name\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"_age\",\"type\":\"uint256\"}],\"name\":\"register\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/IStudentRegistry.sol\":\"IStudentRegistry\"},\"evmVersion\":\"prague\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/IStudentRegistry.sol\":{\"keccak256\":\"0xf83ded034600e3d4eae181ddbb08990cc9ccd13ea6bc7312f50348c5486f43d8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://05d49fdf367a5a286e249faf0b290f2a5be0bc84cc5ced9af02ee70f32ff672b\",\"dweb:/ipfs/QmPh2w33MaVwRHNUaKWvFU6yBDBcPGT3j4wKgPQkfbmhtU\"]}},\"version\":1}",
+					"metadata": "{\"compiler\":{\"version\":\"0.8.30+commit.73712a01\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_addr\",\"type\":\"address\"}],\"name\":\"getStudent\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_addr\",\"type\":\"address\"}],\"name\":\"isRegistered\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_name\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"_age\",\"type\":\"uint256\"}],\"name\":\"register\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/IStudentRegistry.sol\":\"IStudentRegistry\"},\"evmVersion\":\"prague\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/IStudentRegistry.sol\":{\"keccak256\":\"0xeb33485f1b9a8e78e0990f978f36f1c678b1f9bff9e48fc845db772455b40945\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://abee6cfebfa0b8f0d194d5765f7fba3c673e2c89444360c147fd6ccc3ff00da1\",\"dweb:/ipfs/QmajvSEKnkJbvN2kE59YMEj5GnMyYbS5iMXPBsY8p2yYLg\"]}},\"version\":1}",
 					"storageLayout": {
 						"storage": [],
 						"types": null
@@ -473,7 +473,7 @@
 							"usedEvents": []
 						}
 					],
-					"src": "33:281:0"
+					"src": "33:283:0"
 				},
 				"id": 0
 			}
